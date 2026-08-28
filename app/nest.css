@@ -1,0 +1,6 @@
+.simulation { position: relative; width: 100%; height: 100%; }
+.viewSwitch { position: absolute; z-index: 4; top: 28px; left: 50%; transform: translateX(-50%); display: flex; padding: 3px; gap: 3px; background: rgba(27,17,10,.82); border: 1px solid #735333; }
+.viewSwitch button { cursor: pointer; border: 0; padding: 8px 15px; color: #a99475; background: transparent; font: 800 9px ui-monospace,monospace; letter-spacing: .14em; }
+.viewSwitch button.active { color: #24160d; background: #dfb968; }
+.antHungerLabel { margin-top: 10px; color: #d6ad68 !important; }
+@media(max-width:700px){.viewSwitch{top:72px}.spiderHud{top:115px}}
